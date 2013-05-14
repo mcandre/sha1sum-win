@@ -1,18 +1,13 @@
-# sha1sum-win - sha1sum installer for Windows
+# sha1sum-win - Windows installer for sha1sum
 
-# EXAMPLE
+# ABOUT
 
-## Create the MSI installer
+sha1sum-win takes a sha1sum binary and wraps it in a basic MSI installer that adds `sha1sum` to `PATH`.
 
-	C:\>make
+# DOWNLOAD
 
-## Install sha1sum
+https://github.com/mcandre/sha1sum-win/blob/master/sha1sum-1.3.92.msi?raw=true
 
-Either launch `sha1sum-1.3.92.msi` manually, or enter `make install`.
+# CREDITS
 
-## Use sha1sum
-
-Open a new Command Prompt to reload sha1sum.exe in PATH. Then:
-
-	C:\>sha1sum hash.ico
-	4627e2d2d63df29b597229c29f072c02f57bedd3  hash.ico
+Binary - [GNUPG](https://github.com/mcandre/sha1sum-win/blob/master/sha1sum-1.3.92.msi?raw=true)

@@ -1,5 +1,9 @@
 # sha1sum-win - Windows installer for sha1sum
 
+# DEPRECATED
+
+Windows users are advised to install sha1sum as part of [Cygwin](http://cygwin.com/).
+
 # ABOUT
 
 sha1sum-win takes a sha1sum binary and wraps it in a basic MSI installer that adds `sha1sum` to `PATH`.
